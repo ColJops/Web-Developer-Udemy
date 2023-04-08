@@ -7,22 +7,32 @@
     <title>Demo page for pure html</title>
 </head>
 <body>
-    <h1>Welcome to my first website</h1>
-    <a href="contact.html">Contact me</a>
+    <header>
+        <h1>Welcome to my first website</h1>
+        <a href="contact.html">Contact me</a>
     <!-- <a href="https://www.google.com">Find in google</a> -->
-    <br>
+        <br>
+    </header>
 
-    <h3>This is my first blog post</h3>
-    <p>This is the content of my first blog post</p>
-    <br>
+    <article>
+        <h3>This is my first blog post</h3>
+        <p>This is the content of my first blog post</p>
+        <br> 
+    </article>
 
-    <h3>This is my second blog post</h3>
-    <p>This is the content of my second blog post</p>
-    <br>
-    
-    <h3>This is my third blog post</h3>
-    <p>This is the content of my third blog post
-    <br>Continue the content after braking line.</p>
+    <article>
+        <h3>This is my second blog post</h3>
+        <p>This is the content of my second blog post</p>
+        <br>
+    </article>
+    <article>
+        <h3>This is my third blog post</h3>
+        <p>This is the <mark>content</mark> of my third blog post
+        <br>Continue the content after <i>braking line</i><sup>*</sup>.</p>
+        <p>
+            <small><sup>*</sup>Another sentence</small>
+        </p>
+    </article>
 
     <br>
     <div>
@@ -40,11 +50,29 @@
         </ol>
     </div>
 
+    <table border="1">
+        <tr>
+            <th>Technology</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>3</td>
+        </tr>
+    </table>
+
     <br>
     <br>
-    <div>
-        Footer area. Copyright: Me & My Tutor
-    </div>
+    <footer>
+         <div>
+            Footer area. Copyright: <strong>Me</strong> & My Tutor
+        </div>
+    </footer>
+   
         <!-- Content not wrapped in any tag (barely used in reality) -->
 </body>
 </html>
